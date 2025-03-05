@@ -1,0 +1,47 @@
+# Ignorar archivos y carpetas innecesarias en cada nivel
+nivel1/target/
+nivel2/target/
+nivel3/target/
+
+nivel1/.idea/
+nivel2/.idea/
+nivel3/.idea/
+
+nivel1/.mvn/
+nivel2/.mvn/
+nivel3/.mvn/
+
+nivel1/HELP.md
+nivel2/HELP.md
+nivel3/HELP.md
+
+nivel1/.settings/
+nivel2/.settings/
+nivel3/.settings/
+
+nivel1/bin/
+nivel2/bin/
+nivel3/bin/
+
+nivel1/build/
+nivel2/build/
+nivel3/build/
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# No ignorar el código fuente, pom.xml y Maven Wrapper
+!nivel1/src/
+!nivel2/src/
+!nivel3/src/
+!nivel1/pom.xml
+!nivel2/pom.xml
+!nivel3/pom.xml
+!nivel1/mvnw
+!nivel2/mvnw
+!nivel3/mvnw
+!nivel1/mvnw.cmd
+!nivel2/mvnw.cmd
+!nivel3/mvnw.cmd
+
